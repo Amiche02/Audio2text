@@ -19,12 +19,14 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone this repository:
+   
    ```
    git clone https://github.com/Amiche02/Audio2text.git
    cd Audio2text
    ```
 
 2. Install the required packages:
+   
    ```
    pip install -r requirements.txt
    ```
@@ -32,6 +34,7 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 
 1. Run the application:
+   
    ```
    python app.py
    ```
@@ -57,3 +60,9 @@ Contributions to this project are welcome. Please feel free to fork the reposito
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
